@@ -1,0 +1,221 @@
+.wt-nav-pills .menu-item.active a {
+	color: #fff;
+	background-color: #7b2d29;
+}
+
+
+.service_details ul,
+.service_details ol{
+    margin-left: 30px;
+}
+.service_shot_info {
+	/* min-height: 100px; */
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+}
+.wt-team-four .wt-team-info{
+	min-height: 205px;
+}
+.social-icons{
+    margin-bottom: 0;
+}
+
+
+.drop-shadow {
+    position:relative;
+    float:left;
+    width:100%;    
+    padding:1em; 
+    margin:2em 10px 4em; 
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+    content:"";
+    position:absolute; 
+    z-index:-2;
+}
+
+.drop-shadow p {
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* Lifted corners */
+
+.lifted {
+    -moz-border-radius:4px; 
+         border-radius:4px;
+}
+
+.lifted:before,
+.lifted:after { 
+    bottom:15px;
+    left:10px;
+    width:50%;
+    height:20%;
+    max-width:300px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);   
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(-3deg);    
+       -moz-transform:rotate(-3deg);   
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+
+.lifted:after {
+    right:10px; 
+    left:auto;
+    -webkit-transform:rotate(3deg);   
+       -moz-transform:rotate(3deg);  
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+}
+
+.notice_title{
+    text-align: center;
+}
+.notice_title h2{}
+.notice_title h2 span{
+    font-size: 12px;
+    font-style: italic;
+}
+.notice_pin{
+    text-align: center;
+}
+.notice_pin img{
+    width: 50px;
+}
+
+.list-checked ul{
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+}
+.list-checked.black {
+	margin-left: 30px;
+}
+.career_desc{
+    margin-bottom: 20px;
+}
+.career_desc h4 span{
+    font-weight: normal;
+}
+.training_desc{
+    margin-bottom: 20px;
+}
+.training_desc h4 span{
+    font-weight: normal;
+}
+.apply_job{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.apply_job h2{}
+.apply_job p{}
+.testimonial-3 .testimonial-position,
+.apply_job p span{
+    color: red;
+}
+
+.sticky-header.main-bar-wraper.is-fixed.color-fill .main-bar {
+	box-shadow: 0px 4px 4px #d6d6d6;
+}
+
+.bdr-gray-dark {
+	border-color: #fff;
+}
+
+
+.tp-parallax-wrap .text-primary{
+	color: #fff;
+}
+.social-icons.social-darkest a,
+.button.scroltop,
+.site-footer.footer-dark h5,
+.site-footer.footer-dark p,
+.testimonial-3 .quote-left::before,
+.status-value span,
+.white_text p,
+.white_text h5{
+	color: #fff;
+}
+
+.social-icons.social-radius.social-darkest a, .social-icons.social-square.social-darkest a {
+	border: 1px solid #fff;
+}
+
+
+.product-wrap.product-border-1{
+  transition: .5s;
+}
+.product-wrap.product-border-1:hover{
+  border-color: #000;
+  transition: .5s;
+}
+.product-wrap .product-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+}
+.product-wrap .product-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
+    -moz-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
+    -ms-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
+    -o-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+.product-wrap .product-img a img {
+    width: 100%;
+}
+.product-wrap .product-img img:hover {
+    /* transition: .5s; */
+    animation: zoomeffect 3s ease-out 0s 1 normal both;
+    transform: scale(2) rotate(0.1deg);
+}
+
+.product-wrap .product-img img {
+    transition: transform 9s linear;
+}
+
+.product .product-wrap {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd;
+    margin-bottom: 30px;
+}
+
+.product .product-content h2 {
+    padding: 7px 0;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+

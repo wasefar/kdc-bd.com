@@ -1,0 +1,116 @@
+
+
+.jobs_category{}
+.jobs_category ul{}
+.jobs_category ul li{}
+.jobs_category ul li ul{}
+.jobs_category ul li ul li{
+
+	width: 80%;
+	display: block;
+	overflow: hidden;
+}
+.jobs_category ul li ul li:hover{
+	background-color: #d6d6d6;
+}
+
+
+.form-title {
+  border: 0 none;
+  color: #333;
+  display: block;
+  font-size: 21px;
+  line-height: inherit;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+hr.sm {
+  background-image: linear-gradient(to right, transparent, #dbdbdb, transparent);
+  margin: 10px 0;
+}
+.center {
+  text-align: center;
+}
+.add_new_box {
+  border-left: 1px solid #164575;
+  box-shadow: 1px 1px 3px #222;
+  padding: 10px;
+}
+.align-right {
+  text-align: right;
+}
+.cv-experience {
+  position: relative;
+}
+.cv-certifications, .cv-education, .cv-experience, .cv-languages {
+  border-bottom: 3px double #e6e6e6;
+}
+.cv-certifications .certifications-headline, .cv-education .education-headline, .cv-experience .experience-headline, .cv-languages .languages-headline {
+  font-size: 15px;
+}
+.cv-experience .experience-headline .exp-headline {
+  font-style: italic;
+  font-weight: 700;
+}
+.cv-experience .experience-description {
+  font-style: italic;
+}
+.cv-experience .cvexp-options {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.alert, .btn, .form-control {
+  border-radius: 0;
+}
+
+.cv-education {
+  margin: 5px 0;
+  padding: 5px 0;
+  position: relative;
+}
+
+.cv-education .cvexp-options {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cv-languages {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-bottom: 6px;
+  padding-top: 5px;
+  position: relative;
+}
+.cv-languages .cvexp-options {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 70%;
+}
+
+.modal-dialog .container{
+  width: 95%;
+}
+
+.candidate_resume_cus .btn-warning {
+  background-color: #164872;
+  border-color: #0b395e;
+}
+
+
+ul.tagit li.tagit-choice {
+  background: #164872 none repeat scroll 0 0;
+  border: 1px solid #0b395e;
+  border-radius: 6px;
+  font-weight: normal;
+}

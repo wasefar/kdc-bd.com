@@ -1,0 +1,27 @@
+CKFinder License Agreement
+Version 2.3, April 2013
+================
+http://cksource.com/ckfinder
+Copyright (C) 2007-2014, CKSource - Frederico Knabben. All rights reserved.
+
+This document ("Agreement") is a legal agreement between You, either an individual or a Legal Entity,
+and CKSource – Frederico Knabben ("CKSource"), running business activity pursuant to registration by
+the President of the Capital City of Warsaw under no. 429043, covering Your permissions to use, reproduce,
+and distribute the Software under the License terms defined hereby.
+
+1. Definitions
+
+"Agreement Name" shall mean the name used to reference this Agreement in any context, which is
+"CKFinder License Agreement 2.3" or "CKFinder License 2.3".
+
+"Software" or "CKFinder" shall mean the copyrighted material owned by CKSource, subject to the terms of
+this License. The Software is publicly, uniquely, and in its entirety recognizable by the "CKFinder" name
+("Software Name").
+
+"Software Release" or "Release" shall mean a set of files distributed by CKSource, or anyone authorized to
+distribute it, that represents the Software. A Release is uniquely identified by the Software Name and a code.
+Such code is generally referenced as the Software version or revision number, or a combination of both.
+
+"Release Date" shall mean the day that CKSource started distributing a Release.
+
+"Product" shall mean a single computer program or one or more websites ("
